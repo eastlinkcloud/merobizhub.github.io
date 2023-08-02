@@ -1,0 +1,71 @@
+
+<!-- if (!isset($_SESSION['username'])) {
+  // Redirect to login page if user is not logged in
+  header("location: index.php");
+  exit();
+} -->
+
+<!-- $host = "localhost";
+$username = "merobizh_root";
+$password = "Kniltsae@977";
+$dbname = "merobizh_sales"; -->
+
+
+<!-- @EastLink Domain: merobizhub.com
+Username: merobizh
+Password: Kniltsae@988
+Admin Email: cwp2@eastlink.net.np -->
+
+<!-- $host = "localhost";
+$username = "merobizh_root";
+$password = "Kniltsae@977";
+try {
+  $conn = new PDO("mysql:host=$host;dbname=merobizh_sales", $username, $password);
+  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch(PDOException $e) {
+  echo "Connection failed: " . $e->getMessage();
+} -->
+
+
+<!-- top.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title><br />
+<b>Warning</b>:  Undefined variable $title in <b>D:\ProgramInstalled\xampp\htdocs\EASTLINK\include\top.php</b> on line <b>10</b><br />
+</title>
+    <!-- Custom styles for this page -->
+    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css" />
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="css/sb-admin-2.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Custom styles for this page -->
+    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/icon/merobiz.png">
+
+</head><?php
+
+if(isset($_POST['download'])) {
+    $filename = "example.php";
+    header("Content-Disposition: attachment; filename=" . $filename);
+    header("Content-Type: application/octet-stream");
+    readfile($filename);
+    exit();
+ }
+ 
+?>

@@ -1,0 +1,64 @@
+*{
+        margin:0;
+        padding: 0;
+       
+    }
+    body{
+        margin:0;
+        padding: 0;
+        font-size: auto;
+    }
+    .dt-buttons{
+        margin-left:80%;
+        margin-bottom: 1%;
+    }
+    #example_filter{
+        display:none;
+    }
+    .form-select{
+        font-size:13px; 
+        font-weight: bold;
+        width:150px;
+        margin: 2px;
+       
+    }
+    .form-select1{
+        font-size:13px; 
+        font-weight: bold;
+        width:170px;
+        margin: 2px;
+        border: 1px solid #888;
+        border: var(--bs-border-width) solid var(--bs-border-color);
+        border-radius: var(--bs-border-radius);
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+     
+    }
+
+    .form-control{
+        font-size:15px; 
+        font-weight: bold;
+        width:156px;
+        margin: 2px;
+    }
+    .btn1{
+        width: 100px;
+        margin-left: 10px;
+        background: #000;
+        border: 1px solid #fff;
+        color: #fff;
+    }
+    form{
+        background: #fff;
+        font-size: 12px;
+        
+    }
+    table{
+        font-size:12px;
+        margin:0;
+        padding: 0;
+    }
+    .navbar{
+        background:#28304e; color:#fff; 
+        border-radius: 0;
+        height: 5rem;
+    }

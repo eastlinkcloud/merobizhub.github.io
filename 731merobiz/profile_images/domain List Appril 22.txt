@@ -1,0 +1,43 @@
+
+Panel URL: 
+http://host.databackupnepal.com:2082
+https://host.databackupnepal.com:2083
+
+Domain: tribhuvanmc.edu.np
+Username: tribhuva
+Password: DoQ6gCsmGLO9
+
+
+Domain: superbworldrecords.com
+Username: superbwo
+Password: DoQ6gCsmGLO9
+Admin Email: databackup@eastlink.net.np
+
+
+Domain: officialeverestworldrecords.com
+Username: official
+Password: DoQ6gCsmGLO9
+
+Domain: nepan.org.np
+Username: nepanorg
+Password: 4eA0NVoM8XWQ
+
+Domain: nakshetra.com.np
+Username: nakshetr
+Password: Dky3qJ1GmgUj
+
+Domain: jjhs.edu.np
+Username: jjhsedu
+Password: dnFhtsV4QTMg
+
+Domain: creativerecordsnepal.com
+Username: creative
+Password: SkM5dVZT4HE9
+
+Domain: aamacraft.com
+Username: aamacraf
+Password: JkUsZMeWdxfj
+
+Domain: eastlink.com.np
+Username: eastlin4
+Password: dht7VHNGrzpC
